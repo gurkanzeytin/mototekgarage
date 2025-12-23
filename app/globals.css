@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+
+  /* Brand Colors Reconstruction from legacy index.html */
+  --color-brand-bg: #0B0F14;
+  --color-brand-surface: #111827;
+  --color-brand-text: #FFFFFF;
+  --color-brand-textSec: #9CA3AF;
+  --color-brand-accent: #FF3B30;
+  --color-brand-accentHover: #D32F2F;
+  --color-brand-warning: #FBBF24;
+}
+
+body {
+  background-color: var(--color-brand-bg);
+  color: var(--color-brand-text);
+  font-family: Arial, Helvetica, sans-serif;
+}
