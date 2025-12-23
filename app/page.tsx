@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { ArrowRight, Star, ShieldCheck, Clock } from 'lucide-react';
+import { ArrowRight, Star, ShieldCheck, Clock, Instagram } from 'lucide-react';
 import { Section, Button } from '../components/Components';
 import { SERVICES, FAQS } from '../lib/mockData';
 import WorkshopGallery from '../components/WorkshopGallery';
@@ -34,6 +34,15 @@ const Hero = () => (
           <Button to="/randevu" variant="primary" className="text-xl px-10 py-4 font-bold shadow-brand-accent/30 hover:scale-105 transition-transform">
             Servis Randevusu Al
           </Button>
+          <a
+            href="https://www.instagram.com/tek_moto_pendik_garage/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center gap-2 px-10 py-4 rounded-lg font-bold transition-all duration-200 active:scale-95 text-xl bg-brand-accent hover:bg-brand-accentHover text-white shadow-lg shadow-brand-accent/30 hover:scale-105 transition-transform"
+          >
+            <Instagram className="w-6 h-6" />
+            Instagram Hesabımız
+          </a>
         </div>
         <div className="mt-12 flex gap-8">
           <div className="flex flex-col">
