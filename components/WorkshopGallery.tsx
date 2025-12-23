@@ -5,11 +5,11 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const WorkshopGallery = () => {
     const images = [
-        "/images/gallery/01.jpg",
-        "/images/gallery/02.jpg",
-        "/images/gallery/03.jpg",
-        "/images/gallery/04.jpg",
-        "/images/gallery/05.jpg"
+        "/images/gallery/workshop-01.jpg",
+        "/images/gallery/workshop-02.jpg",
+        "/images/gallery/workshop-03.jpg",
+        "/images/gallery/workshop-04.jpg",
+        "/images/gallery/workshop-05.jpg"
     ];
 
     const [currentIndex, setCurrentIndex] = useState(0);

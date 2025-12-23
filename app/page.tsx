@@ -166,7 +166,7 @@ export default async function Home() {
               allowFullScreen={true}
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="MOTO TEK GARAGE Location"
+              title="Tek Moto Pendik Garage Location"
             ></iframe>
           </div>
         </div>

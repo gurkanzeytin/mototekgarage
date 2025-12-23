@@ -24,7 +24,7 @@ const Navbar = () => {
   const navLinks = [
     { name: 'Anasayfa', path: '/' },
 
-    { name: 'Servis', path: '/servis' },
+    { name: 'Hizmetlerimiz', path: '/servis' },
     { name: 'Randevu', path: '/randevu' },
     { name: 'İletişim', path: '/iletisim' },
   ];
@@ -35,7 +35,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-20">
           <Link href="/" className="flex items-center gap-2 group">
             <div className="flex flex-col">
-              <span className="text-xl font-bold tracking-tight text-white leading-none">MOTO TEK</span>
+              <span className="text-xl font-bold tracking-tight text-white leading-none">TEK MOTO</span>
               <span className="text-xs text-brand-accent tracking-widest font-semibold">PENDİK GARAGE</span>
             </div>
           </Link>
@@ -88,10 +88,10 @@ const Footer = () => (
       <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
         <div className="col-span-1 md:col-span-1">
           <Link href="/" className="flex items-center gap-2 mb-4">
-            <span className="text-lg font-bold text-white">MOTO TEK</span>
+            <span className="text-lg font-bold text-white">TEK MOTO GARAGE</span>
           </Link>
           <p className="text-gray-400 text-sm leading-relaxed mb-6">
-            Pendik'in en güvenilir motosiklet servisi ve ikinci el satış noktası. Tutkumuz, sizin güvenliğiniz ve sürüş keyfiniz.
+            Pendik Kaynarca Mahallesinin en güvenilir motosiklet servisi ve ikinci el satış noktası. Tutkumuz, sizin güvenliğiniz ve sürüş keyfiniz.
           </p>
           <div className="flex gap-4">
             <a href="https://www.instagram.com/tek_moto_pendik_garage/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-400 hover:bg-brand-accent hover:text-white transition-colors">
@@ -141,7 +141,7 @@ const Footer = () => (
       </div>
 
       <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-500">
-        <p>&copy; 2024 Moto Tek Pendik Garage. Tüm hakları saklıdır.</p>
+        <p>&copy; 2025 Tek Moto Pendik Garage. Tüm hakları saklıdır.</p>
         <div className="flex gap-6">
           <Link href="/kvkk" className="hover:text-white">KVKK</Link>
           <Link href="/cerez" className="hover:text-white">Çerez Politikası</Link>
